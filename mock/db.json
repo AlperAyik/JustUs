@@ -1,0 +1,1130 @@
+{
+  "dateIdeas": [
+    {
+      "id": 1,
+      "titel": "Picknick in het Vondelpark",
+      "slug": "picknick-in-het-vondelpark",
+      "foto": "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?w=800",
+      "beschrijving": "Spreid een kleed uit bij de rosarium of het grote grasveld, neem een mand mee met kaas, stokbrood en wijn.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Vondelpark",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€",
+      "prijsDetails": "Gratis toegang, picknick zelf meenemen ~€15–25",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "romantisch",
+        "gratis",
+        "ontspannend"
+      ]
+    },
+    {
+      "id": 2,
+      "titel": "Kookworkshop bij Pakhuis de Zwijger",
+      "slug": "kookworkshop-bij-pakhuis-de-zwijger",
+      "foto": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800",
+      "beschrijving": "Leer samen een Italiaans of Aziatisch gerecht maken onder begeleiding van een chef.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "Pakhuis de Zwijger",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "Ongeveer €65–85 per persoon",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "actief",
+        "culinair",
+        "gezellig"
+      ]
+    },
+    {
+      "id": 3,
+      "titel": "Autokino Ziggo Dome",
+      "slug": "autokino-ziggo-dome",
+      "foto": "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=800",
+      "beschrijving": "Kijk een film vanuit de auto bij het autokino naast de Ziggo Dome. Neem dekens en snacks mee voor de ultieme drive-in beleving.",
+      "categorie": "autokino",
+      "locatie": {
+        "naam": "Ziggo Dome Parkeerplaats",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€25–35 per auto",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "film",
+        "retro",
+        "avontuurlijk"
+      ]
+    },
+    {
+      "id": 4,
+      "titel": "Escape room bij Sherlocked",
+      "slug": "escape-room-bij-sherlocked",
+      "foto": "https://images.unsplash.com/photo-1617396900799-f4ec2b43c7d3?w=800",
+      "beschrijving": "Eén van de beste escape rooms van Nederland, met prachtige decors en slimme puzzels.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "Sherlocked",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€30–40 per persoon",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "spannend",
+        "team",
+        "uitdagend"
+      ]
+    },
+    {
+      "id": 5,
+      "titel": "Kajakken op de Amsterdamse grachten",
+      "slug": "kajakken-op-de-amsterdamse-grachten",
+      "foto": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800",
+      "beschrijving": "Verken de grachten vanuit het water op een kajak. Huur ze bij verschillende plekken in de stad.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Kajak Amsterdam (Korte Prinsengracht)",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€15–20 per persoon per uur",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "avontuurlijk",
+        "actief",
+        "uniek"
+      ]
+    },
+    {
+      "id": 6,
+      "titel": "Diner in de Jordaan",
+      "slug": "diner-in-de-jordaan",
+      "foto": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800",
+      "beschrijving": "Slenter door de Jordaan en kies een knus restaurantje. Recommendatie: Toscanini voor Italiaans of Moeder voor stamppot.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "De Jordaan",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "€40–70 per persoon inclusief drankjes",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "romantisch",
+        "culinair",
+        "sfeervol"
+      ]
+    },
+    {
+      "id": 7,
+      "titel": "Bios Pathé Tuschinski",
+      "slug": "bios-pathe-tuschinski",
+      "foto": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800",
+      "beschrijving": "Film kijken in het iconische Tuschinski bioscooptheater, een van de mooiste bioscopen ter wereld. Boek stoelen in de balkonzaal.",
+      "categorie": "film",
+      "locatie": {
+        "naam": "Pathé Tuschinski",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€15–22 per persoon",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "film",
+        "bijzonder",
+        "romantisch"
+      ]
+    },
+    {
+      "id": 8,
+      "titel": "Fietstocht naar Zandvoort",
+      "slug": "fietstocht-naar-zandvoort",
+      "foto": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+      "beschrijving": "Fiets vanuit Amsterdam naar het strand van Zandvoort via de Haarlemmerweg. Eet een ijsje op het strand.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Zandvoort aan Zee",
+        "stad": "Zandvoort",
+        "regio": "Noord-Holland"
+      },
+      "prijsIndicatie": "€",
+      "prijsDetails": "Gratis (eigen fietsen) of €15 huurfietsen heen en terug",
+      "duurUren": 8,
+      "seizoen": [
+        "lente",
+        "zomer"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "actief",
+        "strand",
+        "avontuurlijk"
+      ]
+    },
+    {
+      "id": 9,
+      "titel": "Wijnproeverij bij Wijnbar Bacchus",
+      "slug": "wijnproeverij-bij-wijnbar-bacchus",
+      "foto": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800",
+      "beschrijving": "Proef verschillende wijnen uit Europa bij een gezellige wijnbar in de Pijp. Inclusief kleine hapjes.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "De Pijp",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€35–50 per persoon",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "culinair",
+        "ontspannend",
+        "sfeervol"
+      ]
+    },
+    {
+      "id": 10,
+      "titel": "Sterren kijken op de Hoge Veluwe",
+      "slug": "sterren-kijken-op-de-hoge-veluwe",
+      "foto": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800",
+      "beschrijving": "Rijd naar nationaal park de Hoge Veluwe voor een donkere hemel, perfect voor sterren kijken. Neem een thermoskan mee.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Nationaal Park de Hoge Veluwe",
+        "stad": "Otterlo",
+        "regio": "Gelderland"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€12 entree per persoon + rijkosten",
+      "duurUren": 4,
+      "seizoen": [
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "romantisch",
+        "natuur",
+        "avontuurlijk"
+      ]
+    },
+    {
+      "id": 11,
+      "titel": "Bowlen bij Knijn Bowling",
+      "slug": "bowlen-bij-knijn-bowling",
+      "foto": "https://images.unsplash.com/photo-1545809074-59472b3f5ecc?w=800",
+      "beschrijving": "Klassiek bowlen in een gezellige sfeer vlak bij het centrum van Amsterdam.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "Knijn Bowling",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€8–12 per persoon per spelletje",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "gezellig",
+        "actief",
+        "competitief"
+      ]
+    },
+    {
+      "id": 12,
+      "titel": "Wandeling door de Keukenhof",
+      "slug": "wandeling-door-de-keukenhof",
+      "foto": "https://images.unsplash.com/photo-1490750967868-88df5691cc5e?w=800",
+      "beschrijving": "Wandel tussen miljoenen bloeiende bloemen in de Keukenhof, een van de mooiste tuinen ter wereld.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Keukenhof",
+        "stad": "Lisse",
+        "regio": "Zuid-Holland"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€20 per persoon",
+      "duurUren": 4,
+      "seizoen": [
+        "lente"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "romantisch",
+        "natuur",
+        "fotogeniek"
+      ]
+    },
+    {
+      "id": 13,
+      "titel": "Chocolade workshop bij Chocoa",
+      "slug": "chocolade-workshop-bij-chocoa",
+      "foto": "https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=800",
+      "beschrijving": "Maak jullie eigen bonbons en leer alles over chocolade bij een gespecialiseerde chocolatier in Amsterdam.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "Chocoa Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€45–60 per persoon",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "culinair",
+        "creatief",
+        "uniek"
+      ]
+    },
+    {
+      "id": 14,
+      "titel": "Boulderen bij Monk Bouldering",
+      "slug": "boulderen-bij-monk-bouldering",
+      "foto": "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=800",
+      "beschrijving": "Probeer samen boulderen in een van de grootste bouldercentra van Amsterdam. Beginnerslessen beschikbaar.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "Monk Bouldering",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€14 entree + €5 schoenverhuur",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "actief",
+        "uitdagend",
+        "sportief"
+      ]
+    },
+    {
+      "id": 15,
+      "titel": "Bezoek aan de Albert Cuypmarkt + lunch",
+      "slug": "bezoek-aan-de-albert-cuypmarkt-en-lunch",
+      "foto": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800",
+      "beschrijving": "Slenter over de grootste markt van Nederland, proef stroopwafels, haring en verse jus. Eet daarna een hapje bij een tentje in de Pijp.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "Albert Cuypmarkt",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€",
+      "prijsDetails": "€10–20 voor hapjes op de markt",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "gezellig",
+        "culinair",
+        "ontspannend"
+      ]
+    },
+    {
+      "id": 16,
+      "titel": "Zeilen op het IJmeer",
+      "slug": "zeilen-op-het-ijmeer",
+      "foto": "https://images.unsplash.com/photo-1500514966906-fe245eea9344?w=800",
+      "beschrijving": "Huur een zeilboot voor een middag op het IJmeer. Geen ervaring nodig bij een begeleide tocht.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "IJmeer / Marker Wadden",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€€",
+      "prijsDetails": "~€80–120 voor een begeleide tocht voor twee",
+      "duurUren": 4,
+      "seizoen": [
+        "lente",
+        "zomer"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "avontuurlijk",
+        "uniek",
+        "romantisch"
+      ]
+    },
+    {
+      "id": 17,
+      "titel": "EYE Filmmuseum + terras",
+      "slug": "eye-filmmuseum-en-terras",
+      "foto": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800",
+      "beschrijving": "Bekijk een arthouse film in het iconische EYE gebouw en geniet daarna van het terras met uitzicht over het IJ.",
+      "categorie": "film",
+      "locatie": {
+        "naam": "EYE Filmmuseum",
+        "stad": "Amsterdam Noord",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€12 film + drankjes op terras",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "beiden",
+      "rating": null,
+      "tags": [
+        "film",
+        "cultureel",
+        "romantisch"
+      ]
+    },
+    {
+      "id": 18,
+      "titel": "Paintball bij Delta Force",
+      "slug": "paintball-bij-delta-force",
+      "foto": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800",
+      "beschrijving": "Speel een potje paintball in een groot outdoorpark net buiten Amsterdam. Spanning en veel gelach gegarandeerd.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "Delta Force Paintball Amstelveen",
+        "stad": "Amstelveen",
+        "regio": "Noord-Holland"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€30–50 per persoon inclusief uitrusting",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "actief",
+        "avontuurlijk",
+        "competitief"
+      ]
+    },
+    {
+      "id": 19,
+      "titel": "Kerstmarkt Utrecht",
+      "slug": "kerstmarkt-utrecht",
+      "foto": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800",
+      "beschrijving": "Bezoek de gezelligste kerstmarkt van Nederland langs de Oudegracht in Utrecht. Glühwein, oliebollen en sfeer.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Oudegracht Utrecht",
+        "stad": "Utrecht",
+        "regio": "Utrecht"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "Gratis entree, €20–40 voor eten en drinken",
+      "duurUren": 4,
+      "seizoen": [
+        "winter"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "sfeervol",
+        "romantisch",
+        "seizoensgebonden"
+      ]
+    },
+    {
+      "id": 20,
+      "titel": "Schilderworkshop bij Brush & Wine",
+      "slug": "schilderworkshop-bij-brush-en-wine",
+      "foto": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800",
+      "beschrijving": "Schilder samen een canvas onder begeleiding terwijl je een glas wijn drinkt. Geen ervaring nodig.",
+      "categorie": "creatief",
+      "locatie": {
+        "naam": "Brush & Wine Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€45–55 per persoon inclusief wijn en materiaal",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "creatief",
+        "ontspannend",
+        "gezellig"
+      ]
+    },
+    {
+      "id": 21,
+      "titel": "Wandeling Amsterdamse Waterleidingduinen",
+      "slug": "wandeling-amsterdamse-waterleidingduinen",
+      "foto": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+      "beschrijving": "Wandel door het duinlandschap met damherten en vossen. Een van de mooiste wandelgebieden vlak bij Amsterdam.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Amsterdamse Waterleidingduinen",
+        "stad": "Zandvoort",
+        "regio": "Noord-Holland"
+      },
+      "prijsIndicatie": "€",
+      "prijsDetails": "~€5 parkeerkosten, wandelen gratis",
+      "duurUren": 4,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "natuur",
+        "ontspannend",
+        "romantisch"
+      ]
+    },
+    {
+      "id": 22,
+      "titel": "IJsschaatsen op de Jaap Eden IJsbaan",
+      "slug": "ijsschaatsen-op-de-jaap-eden-ijsbaan",
+      "foto": "https://images.unsplash.com/photo-1515169067868-5387ec356754?w=800",
+      "beschrijving": "Schaats hand in hand op de overdekte ijsbaan. Schaatsen te huur aanwezig.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "Jaap Eden IJsbaan",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€10 entree + €6 schaatsverhuur",
+      "duurUren": 2,
+      "seizoen": [
+        "winter",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "romantisch",
+        "actief",
+        "seizoensgebonden"
+      ]
+    },
+    {
+      "id": 23,
+      "titel": "Dagje Haarlem",
+      "slug": "dagje-haarlem",
+      "foto": "https://images.unsplash.com/photo-1558980664-2506fca6bfc4?w=800",
+      "beschrijving": "Verken het historische centrum van Haarlem, bezoek de Grote Kerk, slenter langs de Spaarne en eet bij een terrasje.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Haarlem Centrum",
+        "stad": "Haarlem",
+        "regio": "Noord-Holland"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "Trein €5 heen en terug + €20–40 voor eten",
+      "duurUren": 6,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "beiden",
+      "rating": null,
+      "tags": [
+        "cultureel",
+        "ontspannend",
+        "dagje uit"
+      ]
+    },
+    {
+      "id": 24,
+      "titel": "Pottenbakken bij Studio Klei",
+      "slug": "pottenbakken-bij-studio-klei",
+      "foto": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800",
+      "beschrijving": "Maak samen een eigen keramiek object in een knusse studio. Je neemt je creatie mee naar huis als herinnering.",
+      "categorie": "creatief",
+      "locatie": {
+        "naam": "Studio Klei Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€55–75 per persoon inclusief materiaal en bakken",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "creatief",
+        "uniek",
+        "herinnering"
+      ]
+    },
+    {
+      "id": 25,
+      "titel": "Stranddiner bij Bloomingdale Zandvoort",
+      "slug": "stranddiner-bij-bloomingdale-zandvoort",
+      "foto": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+      "beschrijving": "Eet aan het strand met uitzicht op zee bij een van de gezelligste strandtenten van de kust.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "Bloomingdale Beach Zandvoort",
+        "stad": "Zandvoort",
+        "regio": "Noord-Holland"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€35–55 per persoon",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "romantisch",
+        "culinair",
+        "strand"
+      ]
+    },
+    {
+      "id": 26,
+      "titel": "Speakeasy cocktailworkshop",
+      "slug": "speakeasy-cocktailworkshop",
+      "foto": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800",
+      "beschrijving": "Leer samen cocktails shaken bij een geheime bar in Amsterdam. Inclusief drie zelfgemaakte cocktails.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "Tales & Spirits Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€55–70 per persoon",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "culinair",
+        "gezellig",
+        "uniek"
+      ]
+    },
+    {
+      "id": 27,
+      "titel": "Vaartocht over het Noord-Hollands Kanaal",
+      "slug": "vaartocht-over-het-noord-hollands-kanaal",
+      "foto": "https://images.unsplash.com/photo-1520443240718-fce21901db79?w=800",
+      "beschrijving": "Huur een sloep en vaar door de polder richting Purmerend. Neem een picknick mee en meer aan op een rustige plek.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Noord-Hollands Kanaal",
+        "stad": "Amsterdam Noord",
+        "regio": "Noord-Holland"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€25–40 per uur sloephuur",
+      "duurUren": 4,
+      "seizoen": [
+        "lente",
+        "zomer"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "avontuurlijk",
+        "romantisch",
+        "natuur"
+      ]
+    },
+    {
+      "id": 28,
+      "titel": "Mini golf bij Doolhof Amsterdam",
+      "slug": "mini-golf-bij-doolhof-amsterdam",
+      "foto": "https://images.unsplash.com/photo-1626163576553-d47e55415d15?w=800",
+      "beschrijving": "Speel een potje minigolf in een spannend doolhofpark. Leuk en luchtig dateje met een competitief randje.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "Doolhof Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€12–15 per persoon",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "gezellig",
+        "competitief",
+        "luchtig"
+      ]
+    },
+    {
+      "id": 29,
+      "titel": "Film + diner bij Kinepolis Jaarbeurs Utrecht",
+      "slug": "film-en-diner-bij-kinepolis-jaarbeurs-utrecht",
+      "foto": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?w=800",
+      "beschrijving": "Kijk een blockbuster in 4DX of IMAX en eet daarna in een van de restaurants bij het Jaarbeursplein.",
+      "categorie": "film",
+      "locatie": {
+        "naam": "Kinepolis Utrecht",
+        "stad": "Utrecht",
+        "regio": "Utrecht"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€18–25 film + €25–40 diner",
+      "duurUren": 5,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "film",
+        "dagje uit",
+        "gezellig"
+      ]
+    },
+    {
+      "id": 30,
+      "titel": "Zonsopgang op de Pyramide van Austerlitz",
+      "slug": "zonsopgang-op-de-pyramide-van-austerlitz",
+      "foto": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800",
+      "beschrijving": "Sta vroeg op en rij naar deze bijzondere piramide in de bossen van Zeist. Mee met koffie en croissants.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Pyramide van Austerlitz",
+        "stad": "Zeist",
+        "regio": "Utrecht"
+      },
+      "prijsIndicatie": "€",
+      "prijsDetails": "Gratis entree + rijkosten",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "avontuurlijk",
+        "romantisch",
+        "bijzonder"
+      ]
+    },
+    {
+      "id": 31,
+      "titel": "Dinner in the Dark bij Ctaste",
+      "slug": "dinner-in-the-dark-bij-ctaste",
+      "foto": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800",
+      "beschrijving": "Eet een driegangendiner in totale duisternis, bediend door blinde gastheren. Een onvergetelijke ervaring.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "Ctaste Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€€",
+      "prijsDetails": "~€70–90 per persoon",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "uniek",
+        "bijzonder",
+        "culinair"
+      ]
+    },
+    {
+      "id": 32,
+      "titel": "Nachtelijke rondvaart Amsterdam",
+      "slug": "nachtelijke-rondvaart-amsterdam",
+      "foto": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800",
+      "beschrijving": "Vaar 's avonds door de verlichte grachten van Amsterdam op een romantische rondvaart met wijn en kaas.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Lovers Canal Cruises Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€30–50 per persoon",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "romantisch",
+        "sfeervol",
+        "uniek"
+      ]
+    },
+    {
+      "id": 33,
+      "titel": "Go-karten bij Karting Amsterdam",
+      "slug": "go-karten-bij-karting-amsterdam",
+      "foto": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800",
+      "beschrijving": "Race tegen elkaar op een indoor kartbaan. Spanning en competitie gegarandeerd.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "Karting Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€25–35 per persoon voor 10 minuten",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "actief",
+        "competitief",
+        "avontuurlijk"
+      ]
+    },
+    {
+      "id": 34,
+      "titel": "Vliegeren op het Noordzeestrand",
+      "slug": "vliegeren-op-het-noordzeestrand",
+      "foto": "https://images.unsplash.com/photo-1495568402473-f654f9b1f541?w=800",
+      "beschrijving": "Koop een vlieger en laat hem oplopen boven het strand van Bloemendaal of Bergen aan Zee.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Bloemendaal aan Zee",
+        "stad": "Bloemendaal",
+        "regio": "Noord-Holland"
+      },
+      "prijsIndicatie": "€",
+      "prijsDetails": "€10–15 voor een vlieger + parkeerkosten",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "vrolijk",
+        "ontspannend",
+        "strand"
+      ]
+    },
+    {
+      "id": 35,
+      "titel": "Virtual Reality bij VR Escape Amsterdam",
+      "slug": "virtual-reality-bij-vr-escape-amsterdam",
+      "foto": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800",
+      "beschrijving": "Speel samen een VR avontuur en beleef werelden die je nergens anders kunt zien.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "VR Escape Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€25–35 per persoon per sessie",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "avontuurlijk",
+        "tech",
+        "uniek"
+      ]
+    },
+    {
+      "id": 36,
+      "titel": "High tea bij Café Americain",
+      "slug": "high-tea-bij-cafe-americain",
+      "foto": "https://images.unsplash.com/photo-1455642305367-68834a1da7ab?w=800",
+      "beschrijving": "Geniet van een luxe high tea in het Art Deco interieur van Café Americain aan het Leidseplein.",
+      "categorie": "eten",
+      "locatie": {
+        "naam": "Café Americain",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€35–45 per persoon",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "luxe",
+        "sfeervol",
+        "culinair"
+      ]
+    },
+    {
+      "id": 37,
+      "titel": "Dagje Texel",
+      "slug": "dagje-texel",
+      "foto": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+      "beschrijving": "Neem de veerboot naar Texel en fiets over het eiland. Bezoek de vuurtoren en eet een Texels lam burger.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Texel",
+        "stad": "Den Burg",
+        "regio": "Noord-Holland"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€20 veerboot + €15 huurfietsen + eten",
+      "duurUren": 10,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "buiten",
+      "rating": null,
+      "tags": [
+        "dagje uit",
+        "natuur",
+        "avontuurlijk"
+      ]
+    },
+    {
+      "id": 38,
+      "titel": "Terraria bezoek Artis",
+      "slug": "terraria-bezoek-artis",
+      "foto": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef3?w=800",
+      "beschrijving": "Bezoek het oudste dierenpark van Nederland met fraaie historische gebouwen, een planetarium en een aquarium.",
+      "categorie": "natuur",
+      "locatie": {
+        "naam": "Artis Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€€",
+      "prijsDetails": "~€25 per persoon",
+      "duurUren": 4,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "beiden",
+      "rating": null,
+      "tags": [
+        "cultureel",
+        "ontspannend",
+        "bijzonder"
+      ]
+    },
+    {
+      "id": 39,
+      "titel": "Laser tag bij Lasergame Amsterdam",
+      "slug": "laser-tag-bij-lasergame-amsterdam",
+      "foto": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
+      "beschrijving": "Speel een potje laser tag in een donker doolhof met neonlichten. Perfecte mix van actie en lachen.",
+      "categorie": "spelletjes",
+      "locatie": {
+        "naam": "Lasergame Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€€",
+      "prijsDetails": "~€12–16 per persoon per spelletje",
+      "duurUren": 2,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst",
+        "winter"
+      ],
+      "binnenbuitenshuis": "binnen",
+      "rating": null,
+      "tags": [
+        "actief",
+        "competitief",
+        "grappig"
+      ]
+    },
+    {
+      "id": 40,
+      "titel": "Boekenmarkt Spui + Koffie",
+      "slug": "boekenmarkt-spui-en-koffie",
+      "foto": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800",
+      "beschrijving": "Snuister op de zondagse boekenmarkt op het Spui en drink daarna koffie bij Café Hoppe of Café Luxembourg.",
+      "categorie": "creatief",
+      "locatie": {
+        "naam": "Spui Amsterdam",
+        "stad": "Amsterdam",
+        "regio": "Amsterdam"
+      },
+      "prijsIndicatie": "€",
+      "prijsDetails": "Gratis rondkijken + €5–10 voor koffie/tweedehands boek",
+      "duurUren": 3,
+      "seizoen": [
+        "lente",
+        "zomer",
+        "herfst"
+      ],
+      "binnenbuitenshuis": "beiden",
+      "rating": null,
+      "tags": [
+        "ontspannend",
+        "cultureel",
+        "gezellig"
+      ]
+    }
+  ]
+}
