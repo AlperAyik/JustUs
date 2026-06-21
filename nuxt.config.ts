@@ -10,4 +10,7 @@ export default defineNuxtConfig({
         tailwindcss(),
       ],
     },
+  modules: [
+    '@vee-validate/nuxt',
+   ],
 })

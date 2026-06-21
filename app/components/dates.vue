@@ -6,24 +6,30 @@ const searchbar = ref('');
 const priceIndication = ref('all');
 const location = ref('all');
 const seizoen = ref('all');
+const tijd = ref('all');
 
 const loading = ref(true);
-
 const state = ref(
     {
       input: '',
       price: priceIndication.value,
       location: location.value,
       season: seizoen.value,
+      tijdsduur: tijd.value,
     }
 )
 
+// localstorage
+const favorites = ref([]);
+
+// functions
 function addToState() {
   state.value = {
     input: searchbar.value,
     price: priceIndication.value,
     location: location.value,
-    season: seizoen.value
+    season: seizoen.value,
+    tijdsduur: tijd.value,
   }
 
   filterDates()
@@ -34,43 +40,80 @@ function filterDates() {
   setTimeout(() => {
     loading.value = false
   }, 500)
-  if(state.value.searchbar === '' && state.value.price === 'all' && state.value.location === 'all') {
-      filterData.value = dates.value
+  if (state.value.searchbar === '' && state.value.price === 'all' && state.value.location === 'all') {
+    filterData.value = dates.value
   } else {
     const filterSearchbar = dates.value.filter((date) => date.titel.toLowerCase().includes(state.value.input.toLowerCase()));
     const filterPrice = filterSearchbar.filter((date) => date.prijsIndicatie === state.value.price || state.value.price === 'all');
     const filterLocation = filterPrice.filter((date) => date.binnenbuitenshuis === state.value.location || state.value.location === 'all');
     const filterSeason = filterLocation.filter((date) => date.seizoen.includes(state.value.season) || state.value.season === 'all');
+    const filterUren = filterSeason.filter((date) => date.duurUren === state.value.tijdsduur || state.value.tijdsduur === 'all');
 
-    filterData.value = filterSeason
+    filterData.value = filterUren
   }
 }
 
 function randomDate() {
   const random = Math.floor(Math.random() * dates.value.length);
   const datesRando = dates.value[random];
+
   state.value = {
     input: datesRando.titel,
     price: datesRando.prijsIndicatie,
     location: datesRando.binnenbuitenshuis,
-    season: ''
+    season: 'all',
+    tijdsduur: datesRando.duurUren,
   }
 
   loading.value = true
   filterDates();
 }
 
+function saveFavorites(date) {
+    const exsits = favorites.value.find((item) => item.id === date.id);
+
+    if(!exsits) {
+      favorites.value.push(date)
+    } else {
+      favorites.value.splice(favorites.value.indexOf(date), 1)
+    }
+//  check ff of ik het ook kan verwijderen op id dus met exsits en niet alleen op index
+}
+
+function reset() {
+  state.value = {
+    input: '',
+    price: 'all',
+    location: 'all',
+    season: 'all',
+    tijdsduur: 'all',
+  }
+
+  loading.value = true
+  filterDates();
+}
+
+// onMounted, computed, watch
 onMounted(async () => {
-  dates.value = await $fetch('http://localhost:3001/dateIdeas');
-  randomDate()
-  setTimeout(() => {
-    loading.value = false;
-  }, 500)
-  filterData.value = dates.value
+  try {
+    dates.value = await $fetch('http://localhost:3001/dateIdeas');
+    favorites.value = JSON.parse(localStorage.getItem('favorites')) || [];
+
+    setTimeout(() => {
+      loading.value = false;
+    }, 500)
+    filterData.value = dates.value
+  } catch (e) {
+    console.log(e)
+  }
+
 })
+
+watch(favorites, (newValue) => {
+  localStorage.setItem('favorites', JSON.stringify(newValue));
+  console.log(favorites.value);
+}, {deep: true})
 </script>
-<!-- 3. dates kunnen opslaan dus watch gebruiken voor localstorage om het opteslaan naar favorites storage-->
-<!-- 4. een veras me knop dat random een date idea voor je kiest-->
 
 <template>
   <div class="min-h-screen" style="background: #f5f0eb;">
@@ -81,11 +124,19 @@ onMounted(async () => {
         <h1 style="color: #3a2f25;" class="text-2xl font-medium">Date ideeën</h1>
         <p style="color: #b8a89a;" class="text-sm mt-0.5">Vind de perfecte avond samen</p>
       </div>
-      <button @click="randomDate"
-              style="background: #c9a96e; color: #fffdf9;"
-              class="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium hover:opacity-90 transition-opacity">
-        ✦ Verras me
-      </button>
+      <div class="grid grid-cols-2 gap-5">
+        <button @click="reset"
+                style="background: #c9a96e; color: #fffdf9;"
+                class="gap-2 px-4 py-2 rounded-xl text-sm font-medium hover:opacity-90 transition-opacity cursor-pointer">
+          Reset
+        </button>
+        <button @click="randomDate"
+                style="background: #c9a96e; color: #fffdf9;"
+                class="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium hover:opacity-90 transition-opacity cursor-pointer">
+          ✦ Verras me
+        </button>
+      </div>
+
     </div>
 
     <div class="flex">
@@ -133,23 +184,35 @@ onMounted(async () => {
         </div>
 
         <div style="height: 1px; background: #ede5db;"></div>
-
         <div class="flex flex-col gap-2">
           <label style="color: #b8a89a;" class="text-xs uppercase tracking-widest font-medium">Seizoen</label>
           <div class="flex flex-wrap gap-2">
             <button v-for="s in ['all', 'lente', 'zomer', 'herfst', 'winter']" :key="s"
                     @click="seizoen = s; addToState()"
                     :style="seizoen === s
-                      ? 'background: #c9a96e; border-color: #c9a96e; color: #fffdf9;'
-                      : 'background: #f5f0eb; border-color: #e0d5c9; color: #8a7a6e;'"
+                        ? 'background: #c9a96e; border-color: #c9a96e; color: #fffdf9;'
+                        : 'background: #f5f0eb; border-color: #e0d5c9; color: #8a7a6e;'"
                     class="px-3 py-1 rounded-full border text-xs transition-all">
               {{ s === 'all' ? 'Alle' : s.charAt(0).toUpperCase() + s.slice(1) }}
             </button>
           </div>
         </div>
 
-      <!--tijdsduur toevoegen-->
+        <div style="height: 1px; background: #ede5db;"></div>
 
+        <div class="flex flex-col gap-2">
+          <label style="color: #b8a89a;" class="text-xs uppercase tracking-widest font-medium">Tijdsduur</label>
+          <div class="flex flex-wrap gap-2">
+            <button v-for="s in ['all', 2, 3, 4, 5, 6, 8, 10]" :key="s"
+                    @click="tijd = s; addToState()"
+                    :style="tijd === s
+                      ? 'background: #c9a96e; border-color: #c9a96e; color: #fffdf9;'
+                      : 'background: #f5f0eb; border-color: #e0d5c9; color: #8a7a6e;'"
+                    class="px-3 py-1 rounded-full border text-xs transition-all">
+              {{ s === 'all' ? 'Alle' : s }}
+            </button>
+          </div>
+        </div>
       </aside>
 
       <main class="flex-1 p-6">
@@ -162,7 +225,7 @@ onMounted(async () => {
           <p style="color: #b8a89a;" class="text-sm mb-4">{{ filterData.length }} resultaten gevonden</p>
 
           <div v-if="filterData.length >= 1"
-               class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+               class="grid grid-cols-3 lg:grid-cols-4 gap-4">
             <div v-for="idea in filterData" :key="idea.id"
                  style="background: #fffdf9; border-color: #ede5db;"
                  class="border rounded-2xl overflow-hidden hover:border-[#c9a96e] transition-colors">
@@ -183,18 +246,21 @@ onMounted(async () => {
                       {{ idea.binnenbuitenshuis === 'binnen' ? 'Binnen' : 'Buiten' }}
                     </span>
                   </div>
-                  <NuxtLink :to="`/datePages/${idea.slug}`"
-                            style="color: #c9a96e; border-color: #e8ddd3;"
-                            class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors">
-                    Bekijken
-                  </NuxtLink>
+                  <div class="grid grid-cols-2 gap-2">
+                    <button @click="saveFavorites(idea)" style="color: #c9a96e; border-color: #e8ddd3;" class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors cursor-pointer">Save</button>
+                    <NuxtLink :to="`/datePages/${idea.slug}`"
+                              style="color: #c9a96e; border-color: #e8ddd3;"
+                              class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors">
+                      Bekijken
+                    </NuxtLink>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div v-else class="flex flex-col items-center justify-center mt-16 gap-4">
-            <img src="/empty_state_date_illustration.svg" alt="Geen resultaten" class="w-64 opacity-90">
+            <img src="/empty_state_date_illustration.svg" alt="Geen resultaten" class="w-250 opacity-90">
           </div>
         </div>
 
