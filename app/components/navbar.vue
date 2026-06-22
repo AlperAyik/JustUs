@@ -8,7 +8,8 @@
       <li>Contact</li>
       <li>About us</li>
       <li><NuxtLink :to="`/favorites`">Favorites</NuxtLink></li>
-      <li><NuxtLink :to="`/datetoevoegen`">Add date</NuxtLink></li>
+<!--      <li><NuxtLink :to="`/datetoevoegen`">Add date</NuxtLink></li>-->
+      <li><NuxtLink :to="`/`">Home</NuxtLink></li>
     </ul>
   </div>
 </template>
