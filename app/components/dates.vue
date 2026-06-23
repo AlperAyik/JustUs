@@ -77,7 +77,6 @@ function saveFavorites(date) {
     } else {
       favorites.value.splice(favorites.value.indexOf(date), 1)
     }
-//  check ff of ik het ook kan verwijderen op id dus met exsits en niet alleen op index
 }
 
 function reset() {
@@ -247,7 +246,7 @@ watch(favorites, (newValue) => {
                     </span>
                   </div>
                   <div class="grid grid-cols-2 gap-2">
-                    <button @click="saveFavorites(idea)" style="color: #c9a96e; border-color: #e8ddd3;" class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors cursor-pointer">Save</button>
+                    <button @click="saveFavorites(idea)" style="color: #c9a96e; border-color: #e8ddd3;" class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors cursor-pointer">Save <!--make this computed check if saved make unsave if not saved do save--> </button>
                     <NuxtLink :to="`/datePages/${idea.slug}`"
                               style="color: #c9a96e; border-color: #e8ddd3;"
                               class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors">
