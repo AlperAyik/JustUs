@@ -108,14 +108,14 @@ onMounted(async () => {
 
 })
 
+
 watch(favorites, (newValue) => {
   localStorage.setItem('favorites', JSON.stringify(newValue));
-  console.log(favorites.value);
 }, {deep: true})
 </script>
 
 <template>
-  <div class="min-h-screen" style="background: #f5f0eb;">
+  <div class="min-h-screen font-mono" style="background: #f5f0eb;">
 
     <div style="background: #fffdf9; border-bottom: 1px solid #ede5db;"
          class="px-8 py-6 flex items-center justify-between">
@@ -138,7 +138,7 @@ watch(favorites, (newValue) => {
 
     </div>
 
-    <div class="flex">
+    <div class="flex ">
 
       <aside style="background: #fffdf9; border-right: 1px solid #ede5db; width: 240px; min-width: 240px;"
              class="p-6 flex flex-col gap-6 min-h-screen">

@@ -4,45 +4,57 @@ const date = ref({});
 
 const {data} = await useFetch('http://localhost:3001/dateIdeas')
 
+// localStorage.removeItem('favorites')
+
 const findItem = ref('')
+const local = ref([]);
+const savedText = ref('')
 
 const slug = data.value.filter((item) => item.slug === route.params.slug);
 date.value = slug;
 const dates = date.value?.[0]
 
 onMounted(() => {
-  const local = JSON.parse(localStorage.getItem('favorites')) || [];
-  findItem.value = local.filter((item) => item.titel === dates.titel);
+  local.value = JSON.parse(localStorage.getItem('favorites')) || [];
+  findItem.value = local.value.filter((item) => item.titel === dates.titel);
   console.log(findItem.value);
 })
+
 
 const loading = ref(true);
 setTimeout(() => {
   loading.value = false;
 }, 1000)
 
-const saved = computed(() => {
-  if (findItem.value >= 1) {
-    return "border: 1px solid black;\n" +
-        "  width: 50px;\n" +
-        "  height: 50px;\n" +
-        "  border-top-left-radius: 50%;\n" +
-        "  border-top-right-radius: 50%;\n" +
-        "  border-bottom-left-radius: 100%;\n" +
-        "  border-bottom-right-radius: 100%;\n" +
-        "  background-color: red;"
+function removeSavedDate(date){
+  const exsits = local.value.findIndex((item => item.id === date.id));
+  if (exsits >= 0) {
+    local.value.splice(exsits, 1)
   } else {
-    return "border: 1px solid black;\n" +
-        "  width: 50px;\n" +
-        "  height: 50px;\n" +
-        "  border-top-left-radius: 50%;\n" +
-        "  border-top-right-radius: 50%;\n" +
-        "  border-bottom-left-radius: 100%;\n" +
-        "  border-bottom-right-radius: 100%;\n" +
-        "  background-color: white;"
+    local.value.push(date)
+  }
+}
+
+const saved = computed(() => {
+  if(savedText.value === "saved") {
+    return "unsave"
+  } else {
+    return "save"
   }
 })
-//voeg loading animation toe en check als deze date ook in favorites staat zo ja zet ergens deze date heb je al opgeslagen
+
+// check dit dubbel veranderd anders naar computed
+watch(findItem, (newVal, oldVal) => {
+  if(findItem.value.length >= 1) {
+    savedText.value = "saved"
+  } else {
+    savedText.value = "not saved"
+  }
+})
+
+watch(local, (newValue) => {
+  localStorage.setItem('favorites', JSON.stringify(newValue));
+}, {deep: true})
 </script>
 
 <template>
@@ -68,18 +80,18 @@ const saved = computed(() => {
           <div>
             <h1 class="bg-stone-400 text-white p-2 rounded-md m-1">Binnen/Buiten:
               {{ dates.binnenbuitenshuis.charAt(0).toUpperCase() + dates.binnenbuitenshuis.slice(1) }}</h1>
-            <h1 class="bg-stone-400 text-white p-2 rounded-md m-1"><p id="saved" :style="saved"></p></h1>
+            <h1 class="bg-stone-400 text-white p-2 rounded-md m-1">Date: {{savedText}}</h1>
           </div>
         </div>
       </div>
-
+  <button @click="removeSavedDate(dates)">{{ saved }}</button>
     </div>
   </div>
-  <div v-else >
+  <div v-else class="flex justify-center items-center mt-20">
     <h1>Loading...</h1>
   </div>
 </template>
-<!--Date: {{findItem.length >= 1 ? "Saved" : "Not saved"}}, styling = test i will change it-->
+
 <style scoped>
 
 </style>
