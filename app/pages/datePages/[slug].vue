@@ -67,7 +67,7 @@ watch(local, (newValue) => {
     <div class="flex items-center justify-center gap-20 bg-stone-400 p-10">
       <div>
         <img :src="dates.foto" alt=""
-             class="rounded-4xl shadow-2xl shadow-gray-500 hover:shadow-gray-700 ease-in-out duration-900">
+             class="w-full h-full object-cover rounded-4xl shadow-2xl shadow-gray-500 hover:shadow-gray-700 ease-in-out duration-900">
       </div>
       <div>
         <div class="grid grid-cols-2 gap-10 bg-olive-200 p-10 rounded-4xl">

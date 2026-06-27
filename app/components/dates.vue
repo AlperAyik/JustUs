@@ -74,8 +74,10 @@ function saveFavorites(date) {
 
     if(!exsits) {
       favorites.value.push(date)
+      alert('Date is opgeslagen')
     } else {
       favorites.value.splice(favorites.value.indexOf(date), 1)
+      alert('Date is verwijderd')
     }
 }
 
