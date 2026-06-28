@@ -7,6 +7,7 @@ const priceIndication = ref('all');
 const location = ref('all');
 const seizoen = ref('all');
 const tijd = ref('all');
+const saved = ref(false);
 
 const loading = ref(true);
 const state = ref(
@@ -109,7 +110,6 @@ onMounted(async () => {
   }
 
 })
-
 
 watch(favorites, (newValue) => {
   localStorage.setItem('favorites', JSON.stringify(newValue));
