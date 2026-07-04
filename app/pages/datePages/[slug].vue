@@ -43,7 +43,7 @@ const saved = computed(() => {
   }
 })
 
-// check dit dubbel veranderd anders naar computed
+// check dit dubbel verander anders naar computed
 watch(findItem, (newVal, oldVal) => {
   if(findItem.value.length >= 1) {
     savedText.value = "saved"
