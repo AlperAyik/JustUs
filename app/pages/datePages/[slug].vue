@@ -73,7 +73,7 @@ watch(local, (newValue) => {
       <div>
         <div class="grid grid-cols-2 gap-10 bg-olive-200 p-10 rounded-4xl">
           <div class="">
-            <h1 class="bg-stone-400 text-white p-2 rounded-md m-1" title="link naar website"><a :href="dates.link" class="text-blue-900 border-b-2">Naam:
+            <h1 class="bg-stone-400 text-white p-2 rounded-md m-1 cursor-pointer" title="link naar website"><a :href="dates.link" class="text-blue-900 border-b-2">Naam:
               {{ dates.locatie.naam }}</a></h1>
             <h1 class="bg-stone-400 text-white p-2 rounded-md m-1">Regio: {{ dates.locatie.regio }}</h1>
             <h1 class="bg-stone-400 text-white p-2 rounded-md m-1">Stad: {{ dates.locatie.regio }}</h1>
