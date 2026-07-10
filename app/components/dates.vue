@@ -7,7 +7,9 @@ const priceIndication = ref('all');
 const location = ref('all');
 const seizoen = ref('all');
 const tijd = ref('all');
+
 const saved = ref(false);
+const deleted = ref(false);
 
 const loading = ref(true);
 const state = ref(
@@ -75,11 +77,18 @@ function saveFavorites(date) {
 
     if(!exsits) {
       favorites.value.push(date)
-      alert('Date is opgeslagen')
+      saved.value = true;
     } else {
       favorites.value.splice(favorites.value.indexOf(date), 1)
-      alert('Date is verwijderd')
+      deleted.value = true;
     }
+
+    setTimeout(() => {
+      saved.value = false;
+      deleted.value = false;
+    }, 2500)
+
+    // haal alerts weg en maak een mooie pop up die verdwijnt na 2s
 }
 
 function reset() {
@@ -111,12 +120,35 @@ onMounted(async () => {
 
 })
 
+const dateStatus = computed(() => {
+  if(saved.value === true) {
+    return "Date is opgeslagen"
+  } else if (deleted.value === true) {
+    return "Date is verwijderd"
+  }
+})
+
 watch(favorites, (newValue) => {
   localStorage.setItem('favorites', JSON.stringify(newValue));
 }, {deep: true})
 </script>
 
 <template>
+
+  <div
+      v-if="saved || deleted"
+      class="fixed top-6 left-1/2 z-50 -translate-x-1/2"
+  >
+    <div
+        :class="saved
+      ? 'bg-green-600'
+      : 'bg-red-600'"
+        class="rounded-xl px-6 py-4 text-white shadow-xl"
+    >
+      <p class="font-semibold">{{ dateStatus }}</p>
+    </div>
+  </div>
+
   <div class="min-h-screen font-mono" style="background: #f5f0eb;">
 
     <div style="background: #fffdf9; border-bottom: 1px solid #ede5db;"
