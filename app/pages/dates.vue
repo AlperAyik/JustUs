@@ -1,15 +1,12 @@
 <script setup>
 const dates = ref([]);
 const filterData = ref([]);
-
+const toast = useToast()
 const searchbar = ref('');
 const priceIndication = ref('all');
 const location = ref('all');
 const seizoen = ref('all');
 const tijd = ref('all');
-
-const saved = ref(false);
-const deleted = ref(false);
 
 const loading = ref(true);
 const state = ref(
@@ -26,6 +23,25 @@ const state = ref(
 const favorites = ref([]);
 
 // functions
+function popUp(actionType) {
+  if (actionType === 'saved') {
+    toast.add({
+      title: 'Date is opgeslagen',
+      description: `Je hebt deze date in je favorieten gezet`,
+      icon: 'i-lucide-check-circle',
+      color: 'green'
+    })
+  }
+  if (actionType === 'deleted') {
+    toast.add({
+      title: 'Date is verwijderd',
+      description: `Je hebt deze date uit je favorieten gezet`,
+      icon: 'i-lucide-trash-2',
+      color: 'red'
+    })
+  }
+}
+
 function addToState() {
   state.value = {
     input: searchbar.value,
@@ -73,25 +89,23 @@ function randomDate() {
 }
 
 function saveFavorites(date) {
-    const exsits = favorites.value.find((item) => item.id === date.id);
+  const exsits = favorites.value.find((item) => item.id === date.id);
 
-    if(!exsits) {
-      favorites.value.push(date)
-      saved.value = true;
-    } else {
-      favorites.value.splice(favorites.value.indexOf(date), 1)
-      deleted.value = true;
-    }
-
-    setTimeout(() => {
-      saved.value = false;
-      deleted.value = false;
-    }, 2500)
-
-    // haal alerts weg en maak een mooie pop up die verdwijnt na 2s
+  if (!exsits) {
+    favorites.value.push(date)
+    popUp('saved')
+  } else {
+    favorites.value.splice(favorites.value.indexOf(date), 1)
+    popUp('deleted')
+  }
 }
 
 function reset() {
+  searchbar.value = ''
+  priceIndication.value = 'all'
+  location.value = 'all'
+  seizoen.value = 'all'
+  tijd.value = 'all'
   state.value = {
     input: '',
     price: 'all',
@@ -106,6 +120,8 @@ function reset() {
 
 // onMounted, computed, watch
 onMounted(async () => {
+  const navbarState = useState('navbarState')
+  navbarState.value = "home"
   try {
     dates.value = await $fetch('http://localhost:3001/dateIdeas');
     favorites.value = JSON.parse(localStorage.getItem('favorites')) || [];
@@ -120,35 +136,16 @@ onMounted(async () => {
 
 })
 
-const dateStatus = computed(() => {
-  if(saved.value === true) {
-    return "Date is opgeslagen"
-  } else if (deleted.value === true) {
-    return "Date is verwijderd"
-  }
-})
-
 watch(favorites, (newValue) => {
   localStorage.setItem('favorites', JSON.stringify(newValue));
 }, {deep: true})
 </script>
 
 <template>
-
-  <div
-      v-if="saved || deleted"
-      class="fixed top-6 left-1/2 z-50 -translate-x-1/2"
-  >
-    <div
-        :class="saved
-      ? 'bg-green-600'
-      : 'bg-red-600'"
-        class="rounded-xl px-6 py-4 text-white shadow-xl"
-    >
-      <p class="font-semibold">{{ dateStatus }}</p>
-    </div>
+  <navbar></navbar>
+  <div>
+    <h1 class="text-black text-5xl flex justify-center items-center mt-10 mb-10 font-mono">JustUs</h1>
   </div>
-
   <div class="min-h-screen font-mono" style="background: #f5f0eb;">
 
     <div style="background: #fffdf9; border-bottom: 1px solid #ede5db;"
@@ -172,7 +169,7 @@ watch(favorites, (newValue) => {
 
     </div>
 
-    <div class="flex ">
+    <div class="flex min-h-[calc(100vh-89px)] relative">
 
       <aside style="background: #fffdf9; border-right: 1px solid #ede5db; width: 240px; min-width: 240px;"
              class="p-6 flex flex-col gap-6 min-h-screen">
@@ -280,7 +277,11 @@ watch(favorites, (newValue) => {
                     </span>
                   </div>
                   <div class="grid grid-cols-2 gap-2">
-                    <button @click="saveFavorites(idea)" style="color: #c9a96e; border-color: #e8ddd3;" class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors cursor-pointer">Save <!--make this computed check if saved make unsave if not saved do save--> </button>
+                    <UButton @click="saveFavorites(idea)" style="color: #c9a96e; border-color: #e8ddd3;"
+                             variant="outline"
+                             class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors cursor-pointer">
+                      Save
+                    </UButton>
                     <NuxtLink :to="`/datePages/${idea.slug}`"
                               style="color: #c9a96e; border-color: #e8ddd3;"
                               class="text-xs border rounded-lg px-2.5 py-1 hover:bg-[#f5f0eb] transition-colors">

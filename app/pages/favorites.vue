@@ -1,5 +1,11 @@
 <script setup>
 const favorites = ref([]);
+
+onMounted(() => {
+  const navbarState = useState('navbarState')
+  navbarState.value = "favorites"
+})
+
 onMounted(() => {
   favorites.value = JSON.parse(localStorage.getItem("favorites")) || [];
   console.log(favorites.value);

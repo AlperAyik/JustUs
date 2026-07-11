@@ -4,7 +4,7 @@
 </script>
 
 <template>
-
+<navbar></navbar>
 </template>
 
 <style scoped>
