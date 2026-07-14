@@ -18,6 +18,9 @@ onMounted(() => {
   local.value = JSON.parse(localStorage.getItem('favorites')) || [];
   findItem.value = local.value.filter((item) => item.titel === dates.titel);
   console.log(findItem.value);
+
+  const navbarState = useState('navbarState')
+  navbarState.value = ""
 })
 
 
