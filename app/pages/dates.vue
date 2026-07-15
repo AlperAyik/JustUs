@@ -28,8 +28,7 @@ function popUp(actionType) {
     toast.add({
       title: 'Date is opgeslagen',
       description: `Je hebt deze date in je favorieten gezet`,
-      icon: 'i-lucide-check-circle',
-      color: 'green'
+      icon: 'i-lucide-check-circle'
     })
   }
   if (actionType === 'deleted') {
@@ -37,7 +36,6 @@ function popUp(actionType) {
       title: 'Date is verwijderd',
       description: `Je hebt deze date uit je favorieten gezet`,
       icon: 'i-lucide-trash-2',
-      color: 'red'
     })
   }
 }
