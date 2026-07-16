@@ -5,6 +5,7 @@
       "titel": "Picknick in het Vondelpark",
       "slug": "picknick-in-het-vondelpark",
       "foto": "https://images.unsplash.com/photo-1506617564039-2f3b650b7010?w=800",
+      "link": "https://www.vondelpark.nl",
       "beschrijving": "Spreid een kleed uit bij de rosarium of het grote grasveld, neem een mand mee met kaas, stokbrood en wijn.",
       "categorie": "natuur",
       "locatie": {
@@ -32,9 +33,9 @@
       "titel": "Kookworkshop bij Pakhuis de Zwijger",
       "slug": "kookworkshop-bij-pakhuis-de-zwijger",
       "foto": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800",
+      "link": "https://dezwijger.nl",
       "beschrijving": "Leer samen een Italiaans of Aziatisch gerecht maken onder begeleiding van een chef.",
       "categorie": "eten",
-      "link": "https://dezwijger.nl/",
       "locatie": {
         "naam": "Pakhuis de Zwijger",
         "stad": "Amsterdam",
@@ -62,6 +63,7 @@
       "titel": "Autokino Ziggo Dome",
       "slug": "autokino-ziggo-dome",
       "foto": "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=800",
+      "link": "https://www.autokino.nl",
       "beschrijving": "Kijk een film vanuit de auto bij het autokino naast de Ziggo Dome. Neem dekens en snacks mee voor de ultieme drive-in beleving.",
       "categorie": "autokino",
       "locatie": {
@@ -90,6 +92,7 @@
       "titel": "Escape room bij Sherlocked",
       "slug": "escape-room-bij-sherlocked",
       "foto": "https://images.unsplash.com/photo-1617396900799-f4ec2b43c7d3?w=800",
+      "link": "https://www.sherlocked.nl",
       "beschrijving": "Eén van de beste escape rooms van Nederland, met prachtige decors en slimme puzzels.",
       "categorie": "spelletjes",
       "locatie": {
@@ -119,6 +122,7 @@
       "titel": "Kajakken op de Amsterdamse grachten",
       "slug": "kajakken-op-de-amsterdamse-grachten",
       "foto": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800",
+      "link": "https://www.kayakamsterdam.nl",
       "beschrijving": "Verken de grachten vanuit het water op een kajak. Huur ze bij verschillende plekken in de stad.",
       "categorie": "natuur",
       "locatie": {
@@ -146,6 +150,7 @@
       "titel": "Diner in de Jordaan",
       "slug": "diner-in-de-jordaan",
       "foto": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800",
+      "link": "",
       "beschrijving": "Slenter door de Jordaan en kies een knus restaurantje. Recommendatie: Toscanini voor Italiaans of Moeder voor stamppot.",
       "categorie": "eten",
       "locatie": {
@@ -175,6 +180,7 @@
       "titel": "Bios Pathé Tuschinski",
       "slug": "bios-pathe-tuschinski",
       "foto": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800",
+      "link": "https://www.pathe.nl/bioscoop/tuschinski",
       "beschrijving": "Film kijken in het iconische Tuschinski bioscooptheater, een van de mooiste bioscopen ter wereld. Boek stoelen in de balkonzaal.",
       "categorie": "film",
       "locatie": {
@@ -204,6 +210,7 @@
       "titel": "Fietstocht naar Zandvoort",
       "slug": "fietstocht-naar-zandvoort",
       "foto": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+      "link": "",
       "beschrijving": "Fiets vanuit Amsterdam naar het strand van Zandvoort via de Haarlemmerweg. Eet een ijsje op het strand.",
       "categorie": "natuur",
       "locatie": {
@@ -231,6 +238,7 @@
       "titel": "Wijnproeverij bij Wijnbar Bacchus",
       "slug": "wijnproeverij-bij-wijnbar-bacchus",
       "foto": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800",
+      "link": "",
       "beschrijving": "Proef verschillende wijnen uit Europa bij een gezellige wijnbar in de Pijp. Inclusief kleine hapjes.",
       "categorie": "eten",
       "locatie": {
@@ -260,6 +268,7 @@
       "titel": "Sterren kijken op de Hoge Veluwe",
       "slug": "sterren-kijken-op-de-hoge-veluwe",
       "foto": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800",
+      "link": "https://www.hogeveluwe.nl",
       "beschrijving": "Rijd naar nationaal park de Hoge Veluwe voor een donkere hemel, perfect voor sterren kijken. Neem een thermoskan mee.",
       "categorie": "natuur",
       "locatie": {
@@ -287,6 +296,7 @@
       "titel": "Bowlen bij Knijn Bowling",
       "slug": "bowlen-bij-knijn-bowling",
       "foto": "https://images.unsplash.com/photo-1545809074-59472b3f5ecc?w=800",
+      "link": "https://www.knijnbowling.nl",
       "beschrijving": "Klassiek bowlen in een gezellige sfeer vlak bij het centrum van Amsterdam.",
       "categorie": "spelletjes",
       "locatie": {
@@ -316,6 +326,7 @@
       "titel": "Wandeling door de Keukenhof",
       "slug": "wandeling-door-de-keukenhof",
       "foto": "https://images.unsplash.com/photo-1490750967868-88df5691cc5e?w=800",
+      "link": "https://keukenhof.nl",
       "beschrijving": "Wandel tussen miljoenen bloeiende bloemen in de Keukenhof, een van de mooiste tuinen ter wereld.",
       "categorie": "natuur",
       "locatie": {
@@ -342,6 +353,7 @@
       "titel": "Chocolade workshop bij Chocoa",
       "slug": "chocolade-workshop-bij-chocoa",
       "foto": "https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=800",
+      "link": "https://www.chocoa.nl",
       "beschrijving": "Maak jullie eigen bonbons en leer alles over chocolade bij een gespecialiseerde chocolatier in Amsterdam.",
       "categorie": "eten",
       "locatie": {
@@ -371,6 +383,7 @@
       "titel": "Boulderen bij Monk Bouldering",
       "slug": "boulderen-bij-monk-bouldering",
       "foto": "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=800",
+      "link": "https://www.monkamsterdam.nl",
       "beschrijving": "Probeer samen boulderen in een van de grootste bouldercentra van Amsterdam. Beginnerslessen beschikbaar.",
       "categorie": "spelletjes",
       "locatie": {
@@ -400,6 +413,7 @@
       "titel": "Bezoek aan de Albert Cuypmarkt + lunch",
       "slug": "bezoek-aan-de-albert-cuypmarkt-en-lunch",
       "foto": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=800",
+      "link": "https://albertcuyp-markt.amsterdam",
       "beschrijving": "Slenter over de grootste markt van Nederland, proef stroopwafels, haring en verse jus. Eet daarna een hapje bij een tentje in de Pijp.",
       "categorie": "eten",
       "locatie": {
@@ -428,6 +442,7 @@
       "titel": "Zeilen op het IJmeer",
       "slug": "zeilen-op-het-ijmeer",
       "foto": "https://images.unsplash.com/photo-1500514966906-fe245eea9344?w=800",
+      "link": "",
       "beschrijving": "Huur een zeilboot voor een middag op het IJmeer. Geen ervaring nodig bij een begeleide tocht.",
       "categorie": "natuur",
       "locatie": {
@@ -455,6 +470,7 @@
       "titel": "EYE Filmmuseum + terras",
       "slug": "eye-filmmuseum-en-terras",
       "foto": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800",
+      "link": "https://www.eyefilm.nl",
       "beschrijving": "Bekijk een arthouse film in het iconische EYE gebouw en geniet daarna van het terras met uitzicht over het IJ.",
       "categorie": "film",
       "locatie": {
@@ -484,6 +500,7 @@
       "titel": "Paintball bij Delta Force",
       "slug": "paintball-bij-delta-force",
       "foto": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800",
+      "link": "https://www.paintball.nl",
       "beschrijving": "Speel een potje paintball in een groot outdoorpark net buiten Amsterdam. Spanning en veel gelach gegarandeerd.",
       "categorie": "spelletjes",
       "locatie": {
@@ -512,6 +529,7 @@
       "titel": "Kerstmarkt Utrecht",
       "slug": "kerstmarkt-utrecht",
       "foto": "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=800",
+      "link": "https://www.kerstmarktutrecht.nl",
       "beschrijving": "Bezoek de gezelligste kerstmarkt van Nederland langs de Oudegracht in Utrecht. Glühwein, oliebollen en sfeer.",
       "categorie": "natuur",
       "locatie": {
@@ -538,6 +556,7 @@
       "titel": "Schilderworkshop bij Brush & Wine",
       "slug": "schilderworkshop-bij-brush-en-wine",
       "foto": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800",
+      "link": "https://www.brushandwine.nl",
       "beschrijving": "Schilder samen een canvas onder begeleiding terwijl je een glas wijn drinkt. Geen ervaring nodig.",
       "categorie": "creatief",
       "locatie": {
@@ -567,6 +586,7 @@
       "titel": "Wandeling Amsterdamse Waterleidingduinen",
       "slug": "wandeling-amsterdamse-waterleidingduinen",
       "foto": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+      "link": "https://www.waterleidingduinen.nl",
       "beschrijving": "Wandel door het duinlandschap met damherten en vossen. Een van de mooiste wandelgebieden vlak bij Amsterdam.",
       "categorie": "natuur",
       "locatie": {
@@ -595,6 +615,7 @@
       "titel": "IJsschaatsen op de Jaap Eden IJsbaan",
       "slug": "ijsschaatsen-op-de-jaap-eden-ijsbaan",
       "foto": "https://images.unsplash.com/photo-1515169067868-5387ec356754?w=800",
+      "link": "https://www.jaapeden.nl",
       "beschrijving": "Schaats hand in hand op de overdekte ijsbaan. Schaatsen te huur aanwezig.",
       "categorie": "spelletjes",
       "locatie": {
@@ -622,6 +643,7 @@
       "titel": "Dagje Haarlem",
       "slug": "dagje-haarlem",
       "foto": "https://images.unsplash.com/photo-1558980664-2506fca6bfc4?w=800",
+      "link": "https://www.visithaarlem.nl",
       "beschrijving": "Verken het historische centrum van Haarlem, bezoek de Grote Kerk, slenter langs de Spaarne en eet bij een terrasje.",
       "categorie": "natuur",
       "locatie": {
@@ -650,6 +672,7 @@
       "titel": "Pottenbakken bij Studio Klei",
       "slug": "pottenbakken-bij-studio-klei",
       "foto": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800",
+      "link": "",
       "beschrijving": "Maak samen een eigen keramiek object in een knusse studio. Je neemt je creatie mee naar huis als herinnering.",
       "categorie": "creatief",
       "locatie": {
@@ -679,6 +702,7 @@
       "titel": "Stranddiner bij Bloomingdale Zandvoort",
       "slug": "stranddiner-bij-bloomingdale-zandvoort",
       "foto": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+      "link": "",
       "beschrijving": "Eet aan het strand met uitzicht op zee bij een van de gezelligste strandtenten van de kust.",
       "categorie": "eten",
       "locatie": {
@@ -706,6 +730,7 @@
       "titel": "Speakeasy cocktailworkshop",
       "slug": "speakeasy-cocktailworkshop",
       "foto": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800",
+      "link": "https://www.talesandspirits.com",
       "beschrijving": "Leer samen cocktails shaken bij een geheime bar in Amsterdam. Inclusief drie zelfgemaakte cocktails.",
       "categorie": "eten",
       "locatie": {
@@ -735,6 +760,7 @@
       "titel": "Vaartocht over het Noord-Hollands Kanaal",
       "slug": "vaartocht-over-het-noord-hollands-kanaal",
       "foto": "https://images.unsplash.com/photo-1520443240718-fce21901db79?w=800",
+      "link": "",
       "beschrijving": "Huur een sloep en vaar door de polder richting Purmerend. Neem een picknick mee en meer aan op een rustige plek.",
       "categorie": "natuur",
       "locatie": {
@@ -762,6 +788,7 @@
       "titel": "Mini golf bij Doolhof Amsterdam",
       "slug": "mini-golf-bij-doolhof-amsterdam",
       "foto": "https://images.unsplash.com/photo-1626163576553-d47e55415d15?w=800",
+      "link": "",
       "beschrijving": "Speel een potje minigolf in een spannend doolhofpark. Leuk en luchtig dateje met een competitief randje.",
       "categorie": "spelletjes",
       "locatie": {
@@ -790,6 +817,7 @@
       "titel": "Film + diner bij Kinepolis Jaarbeurs Utrecht",
       "slug": "film-en-diner-bij-kinepolis-jaarbeurs-utrecht",
       "foto": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?w=800",
+      "link": "https://www.kinepolis.nl/bioscoop/utrecht",
       "beschrijving": "Kijk een blockbuster in 4DX of IMAX en eet daarna in een van de restaurants bij het Jaarbeursplein.",
       "categorie": "film",
       "locatie": {
@@ -819,6 +847,7 @@
       "titel": "Zonsopgang op de Pyramide van Austerlitz",
       "slug": "zonsopgang-op-de-pyramide-van-austerlitz",
       "foto": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800",
+      "link": "https://www.pyramidevanauserlitz.nl",
       "beschrijving": "Sta vroeg op en rij naar deze bijzondere piramide in de bossen van Zeist. Mee met koffie en croissants.",
       "categorie": "natuur",
       "locatie": {
@@ -846,6 +875,7 @@
       "titel": "Dinner in the Dark bij Ctaste",
       "slug": "dinner-in-the-dark-bij-ctaste",
       "foto": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800",
+      "link": "https://www.ctaste.nl",
       "beschrijving": "Eet een driegangendiner in totale duisternis, bediend door blinde gastheren. Een onvergetelijke ervaring.",
       "categorie": "eten",
       "locatie": {
@@ -875,6 +905,7 @@
       "titel": "Nachtelijke rondvaart Amsterdam",
       "slug": "nachtelijke-rondvaart-amsterdam",
       "foto": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800",
+      "link": "https://www.lovers.nl",
       "beschrijving": "Vaar 's avonds door de verlichte grachten van Amsterdam op een romantische rondvaart met wijn en kaas.",
       "categorie": "natuur",
       "locatie": {
@@ -904,6 +935,7 @@
       "titel": "Go-karten bij Karting Amsterdam",
       "slug": "go-karten-bij-karting-amsterdam",
       "foto": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800",
+      "link": "",
       "beschrijving": "Race tegen elkaar op een indoor kartbaan. Spanning en competitie gegarandeerd.",
       "categorie": "spelletjes",
       "locatie": {
@@ -933,6 +965,7 @@
       "titel": "Vliegeren op het Noordzeestrand",
       "slug": "vliegeren-op-het-noordzeestrand",
       "foto": "https://images.unsplash.com/photo-1495568402473-f654f9b1f541?w=800",
+      "link": "",
       "beschrijving": "Koop een vlieger en laat hem oplopen boven het strand van Bloemendaal of Bergen aan Zee.",
       "categorie": "natuur",
       "locatie": {
@@ -960,6 +993,7 @@
       "titel": "Virtual Reality bij VR Escape Amsterdam",
       "slug": "virtual-reality-bij-vr-escape-amsterdam",
       "foto": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800",
+      "link": "",
       "beschrijving": "Speel samen een VR avontuur en beleef werelden die je nergens anders kunt zien.",
       "categorie": "spelletjes",
       "locatie": {
@@ -989,6 +1023,7 @@
       "titel": "High tea bij Café Americain",
       "slug": "high-tea-bij-cafe-americain",
       "foto": "https://images.unsplash.com/photo-1455642305367-68834a1da7ab?w=800",
+      "link": "https://www.cafeamericain.nl",
       "beschrijving": "Geniet van een luxe high tea in het Art Deco interieur van Café Americain aan het Leidseplein.",
       "categorie": "eten",
       "locatie": {
@@ -1018,6 +1053,7 @@
       "titel": "Dagje Texel",
       "slug": "dagje-texel",
       "foto": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+      "link": "https://www.texel.net",
       "beschrijving": "Neem de veerboot naar Texel en fiets over het eiland. Bezoek de vuurtoren en eet een Texels lam burger.",
       "categorie": "natuur",
       "locatie": {
@@ -1046,6 +1082,7 @@
       "titel": "Terraria bezoek Artis",
       "slug": "terraria-bezoek-artis",
       "foto": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef3?w=800",
+      "link": "https://www.artis.nl",
       "beschrijving": "Bezoek het oudste dierenpark van Nederland met fraaie historische gebouwen, een planetarium en een aquarium.",
       "categorie": "natuur",
       "locatie": {
@@ -1075,6 +1112,7 @@
       "titel": "Laser tag bij Lasergame Amsterdam",
       "slug": "laser-tag-bij-lasergame-amsterdam",
       "foto": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
+      "link": "",
       "beschrijving": "Speel een potje laser tag in een donker doolhof met neonlichten. Perfecte mix van actie en lachen.",
       "categorie": "spelletjes",
       "locatie": {
@@ -1104,6 +1142,7 @@
       "titel": "Boekenmarkt Spui + Koffie",
       "slug": "boekenmarkt-spui-en-koffie",
       "foto": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800",
+      "link": "https://spui.amsterdam",
       "beschrijving": "Snuister op de zondagse boekenmarkt op het Spui en drink daarna koffie bij Café Hoppe of Café Luxembourg.",
       "categorie": "creatief",
       "locatie": {

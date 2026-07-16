@@ -144,7 +144,10 @@ watch(favorites, (newValue) => {
   <div>
     <h1 class="text-black text-5xl flex justify-center items-center mt-10 mb-10 font-mono">JustUs</h1>
   </div>
-  <div class="min-h-screen font-mono" style="background: #f5f0eb;">
+  <div v-if="loading" class="flex justify-center items-center mt-20">
+    <p style="color: #b8a89a;">Laden...</p>
+  </div>
+  <div class="min-h-screen font-mono" style="background: #f5f0eb;" v-else>
 
     <div style="background: #fffdf9; border-bottom: 1px solid #ede5db;"
          class="px-8 py-6 flex items-center justify-between">
@@ -189,7 +192,7 @@ watch(favorites, (newValue) => {
                     :style="priceIndication === p
                       ? 'background: #c9a96e; border-color: #c9a96e; color: #fffdf9;'
                       : 'background: #f5f0eb; border-color: #e0d5c9; color: #8a7a6e;'"
-                    class="px-3 py-1 rounded-full border text-xs transition-all">
+                    class="px-3 py-1 rounded-full border text-xs transition-all cursor-pointer">
               {{ p === 'all' ? 'Alle' : p }}
             </button>
           </div>
@@ -205,7 +208,7 @@ watch(favorites, (newValue) => {
                     :style="location === l
                       ? 'background: #c9a96e; border-color: #c9a96e; color: #fffdf9;'
                       : 'background: #f5f0eb; border-color: #e0d5c9; color: #8a7a6e;'"
-                    class="px-3 py-1 rounded-full border text-xs transition-all">
+                    class="px-3 py-1 rounded-full border text-xs transition-all cursor-pointer">
               {{ l === 'all' ? 'Alle' : l.charAt(0).toUpperCase() + l.slice(1) }}
             </button>
           </div>
@@ -220,7 +223,7 @@ watch(favorites, (newValue) => {
                     :style="seizoen === s
                         ? 'background: #c9a96e; border-color: #c9a96e; color: #fffdf9;'
                         : 'background: #f5f0eb; border-color: #e0d5c9; color: #8a7a6e;'"
-                    class="px-3 py-1 rounded-full border text-xs transition-all">
+                    class="px-3 py-1 rounded-full border text-xs transition-all cursor-pointer">
               {{ s === 'all' ? 'Alle' : s.charAt(0).toUpperCase() + s.slice(1) }}
             </button>
           </div>
@@ -236,20 +239,15 @@ watch(favorites, (newValue) => {
                     :style="tijd === s
                       ? 'background: #c9a96e; border-color: #c9a96e; color: #fffdf9;'
                       : 'background: #f5f0eb; border-color: #e0d5c9; color: #8a7a6e;'"
-                    class="px-3 py-1 rounded-full border text-xs transition-all">
+                    class="px-3 py-1 rounded-full border text-xs transition-all cursor-pointer">
               {{ s === 'all' ? 'Alle' : s }}
             </button>
           </div>
         </div>
       </aside>
 
-      <main class="flex-1 p-6">
-
-        <div v-if="loading" class="flex justify-center items-center mt-20">
-          <p style="color: #b8a89a;">Laden...</p>
-        </div>
-
-        <div v-else>
+      <div class="flex-1 p-6">
+        <div>
           <p style="color: #b8a89a;" class="text-sm mb-4">{{ filterData.length }} resultaten gevonden</p>
 
           <div v-if="filterData.length >= 1"
@@ -296,10 +294,10 @@ watch(favorites, (newValue) => {
           </div>
         </div>
 
-      </main>
+      </div>
     </div>
-
   </div>
+
 </template>
 
 <style scoped>

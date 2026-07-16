@@ -2,12 +2,12 @@
 const navbarState = useState('navbarState', () => 'home')
 
 const linkBorder1 = computed(() => {
-  if (navbarState.value === 'link1') {
+  if (navbarState.value === 'contact') {
     return 'border-b-2 border-solid border-black'
   }
 })
 const linkBorder2 = computed(() => {
-  if (navbarState.value === 'link2') {
+  if (navbarState.value === 'about') {
     return 'border-b-2 border-solid border-black'
   }
 })
