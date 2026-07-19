@@ -16,11 +16,15 @@ onMounted(() => {
   <navbar></navbar>
 <!--laat alle saved dates zien-->
 
-  <div class="grid grid-cols-3 lg:grid-cols-4">
+  <div class="grid grid-cols-3 lg:grid-cols-4" v-if="favorites.length > 0">
     <div v-for="favo in favorites" class="">
       <h1>{{favo.titel}}</h1>
 
     </div>
+  </div>
+
+  <div v-else>
+    <h1>Geen favorieten</h1>
   </div>
 </template>
 

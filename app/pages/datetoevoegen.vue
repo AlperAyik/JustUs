@@ -1,5 +1,6 @@
 <script setup>
-
+const state = useState('navbarState');
+state.value = 'date';
 
 </script>
 
