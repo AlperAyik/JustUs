@@ -144,10 +144,7 @@ watch(favorites, (newValue) => {
   <div>
     <h1 class="text-black text-5xl flex justify-center items-center mt-10 mb-10 font-mono">JustUs</h1>
   </div>
-  <div v-if="loading" class="flex justify-center items-center mt-20">
-    <p style="color: #b8a89a;">Laden...</p>
-  </div>
-  <div class="min-h-screen font-mono" style="background: #f5f0eb;" v-else>
+  <div class="min-h-screen font-mono" style="background: #f5f0eb;">
 
     <div style="background: #fffdf9; border-bottom: 1px solid #ede5db;"
          class="px-8 py-6 flex items-center justify-between">
@@ -245,9 +242,11 @@ watch(favorites, (newValue) => {
           </div>
         </div>
       </aside>
-
       <div class="flex-1 p-6">
-        <div>
+        <div v-if="loading" class="flex justify-center items-center mt-20">
+          <p style="color: #b8a89a;">Laden...</p>
+        </div>
+        <div v-else>
           <p style="color: #b8a89a;" class="text-sm mb-4">{{ filterData.length }} resultaten gevonden</p>
 
           <div v-if="filterData.length >= 1"
@@ -303,3 +302,5 @@ watch(favorites, (newValue) => {
 <style scoped>
 
 </style>
+
+<!--fix toast-->

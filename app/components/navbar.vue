@@ -31,16 +31,16 @@ const linkBorderHome = computed(() => {
 <template>
   <div class="flex justify-center items-center font-mono">
     <ul class="flex flex-wrap items-center justify-center gap-4 bg-[#c9a96e] text-[#fffdf9] w-fit p-5 rounded-b-md">
-      <li :class="linkBorder1">Contact</li>
-      <li :class="linkBorder2">About us</li>
+<!--      <li :class="linkBorder1">Contact</li>-->
+<!--      <li :class="linkBorder2">About us</li>-->
+      <li :class="linkBorderHome">
+        <NuxtLink :to="`/dates`">Home</NuxtLink>
+      </li>
       <li :class="linkFavorites">
         <NuxtLink :to="`/favorites`">Favorites</NuxtLink>
       </li>
       <li :class="linkDate">
           <NuxtLink :to="`/datetoevoegen`">Add date</NuxtLink>
-      </li>
-      <li :class="linkBorderHome">
-        <NuxtLink :to="`/dates`">Home</NuxtLink>
       </li>
     </ul>
   </div>
