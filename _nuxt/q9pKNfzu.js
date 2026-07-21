@@ -1,0 +1,1 @@
+import{_ as a}from"./CkJbZ7B6.js";import{s as o,o as n,I as _}from"./CDBwfcEJ.js";const u={__name:"datetoevoegen",setup(s){const t=o("navbarState");return t.value="date",(r,c)=>{const e=a;return n(),_(e)}}};export{u as default};
