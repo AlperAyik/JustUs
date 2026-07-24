@@ -1,4 +1,6 @@
 <script setup>
+import ScrollReveal from "scrollreveal";
+
 const dates = ref([]);
 const filterData = ref([]);
 const toast = useToast()
@@ -130,8 +132,15 @@ onMounted(async () => {
     filterData.value = dates.value
   } catch (e) {
     console.log(e)
+  //   maak een error message dat er problemen zijn
   }
-
+  ScrollReveal().reveal('.justUs', {
+    delay: 250,
+    distance: '50px',
+    origin: 'top',
+    duration: 500,
+    reset: false
+  })
 })
 
 watch(favorites, (newValue) => {
@@ -142,7 +151,7 @@ watch(favorites, (newValue) => {
 <template>
   <navbar></navbar>
   <div>
-    <h1 class="text-black text-5xl flex justify-center items-center mt-10 mb-10 font-mono">JustUs</h1>
+    <h1 class="justUs text-black text-5xl flex justify-center items-center mt-10 mb-10 font-mono">JustUs</h1>
   </div>
   <div class="min-h-screen font-mono" style="background: #f5f0eb;">
 
